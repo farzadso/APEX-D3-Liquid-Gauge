@@ -1,0 +1,34 @@
+{
+  "name" : "APEX D3 Liquid Gauge",
+  "version" : "1.0",
+  "description" : "This plugin is a replica of the D3 Liquid Fill Gauge.",
+  "keywords" : ["D3", "APEX D3 Liquid Gauge", "gauge", "JAFR", "item"],
+  "homepage" : "https://github.com/farzadso/APEX-D3-Liquid-Gauge",
+  "bugs" : {
+    "url" : "https://github.com/farzadso/APEX-D3-Liquid-Gauge",
+    "email" : "farzad.au@gmail.com"
+  },
+  "license" : "MIT",
+  "author" : {
+    "name" : "Farzad Soltani",
+    "email" : "farzad.au@gmail.com",
+    "twitter" : "farzadso",
+    "url" : "http://www.farzadsoltani.com"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/farzadso/APEX-D3-Liquid-Gauge.git"
+  },
+ "oracle" : {
+    "versions" : ["11.2.0.1", "12.1.0.1"],
+    "apex" : {
+      "versions" : ["5.1.0"],
+      "plugin" : {
+        "internalName" : "COM.FARZAD.APEXGAUGE",
+        "type" : "item",
+        "demo" : "https://apex.oracle.com/pls/apex/f?p=9468:11",
+        "previewImage" : "https://raw.githubusercontent.com/farzadso/APEX-D3-Liquid-Gauge/master/Animation.gif"
+      }
+    }
+  }
+}
